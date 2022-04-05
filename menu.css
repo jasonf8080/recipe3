@@ -544,7 +544,7 @@ img{
     }
 
     .recipe-item{
-        grid-template-columns: 80px auto;
+        grid-template-columns: 80px auto !important;
     }
 
     .recipe-info h2{
