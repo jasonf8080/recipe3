@@ -541,11 +541,10 @@ img{
 @media(max-width: 600px){
     .categories-grid{
         grid-template-columns: 1fr !important;
-        border: 1px solid red;
     }
 
     .recipe-item{
-        grid-template-columns: 130px auto;
+        grid-template-columns: 80px auto;
     }
 
     .recipe-info h2{
