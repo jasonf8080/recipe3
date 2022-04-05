@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <section class="selected-recipe" id="selected-recipe">
+        <div class="selected-recipe-header">
+            <h1 class="selected-recipe-title">Loading...</h1>
+            <div class="recipe-ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <p class="selected-recipe-desc"></p>
+
+        </div>
+
+        <div class="selected-recipe-info">
+            <div class="save-print-share"><!--item 1-->
+                <div class="sps-item">
+                    <i class="far fa-heart"></i>
+                    <p>Save</p>
+                </div>
+
+                <div class="sps-item">
+                    <i class="fas fa-print"></i>
+                    <p>Print</p>
+                </div>
+
+                <div class="sps-item">
+                    <i class="fas fa-share-square"></i>
+                    <p>Share</p>
+                </div>
+            </div>
+            
+                
+            <img src="https://media.mixbook.com/images/templates/97_1_0_m.jpg" class="selected-recipe-img"> <!--item 2-->
+    
+            
+
+            <div class="selected-recipe-ingredients"><!--item 3-->
+                <h2>Ingredients</h2>
+
+                <ul class="ingredients-list"></ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="steps">
+        <h1>Steps:</h1>
+
+        <ul class="recipe-steps"></ul>
+    </section>
+    <script type="module" src="select-recipe.js"></script>
+</body>
+</html>
