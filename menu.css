@@ -548,10 +548,10 @@ img{
     }
 
     .recipe-info h2{
-        font-size: 22px !important;
+        font-size: 18px !important;
     }
     
     .recipe-info p{
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 }
